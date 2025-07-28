@@ -1,73 +1,74 @@
-# Welcome to your Lovable project
+## SkillBridge Demo
+This repository contains the frontend demo for the SkillBridge job recommendation system. It showcases an interactive user interface designed to help users discover relevant job opportunities based on skills, preferences, and profile data.
 
-## Project info
+## Project Overview:
+The goal of this project is to demonstrate the job matching algorithm through a responsive and modern web interface. It includes dynamic components, reusable UI elements, and smooth navigation for an optimal user experience.
 
-**URL**: https://lovable.dev/projects/d429d9ee-8ebd-4095-8070-ce51e817f35d
+## Tech Stack:
+This project is built with the following modern technologies:
 
-## How can I edit this code?
+1. React – A JavaScript library for building user interfaces
+2. TypeScript – Strongly-typed JavaScript for scalable, maintainable code
+3. Vite – Fast and lightweight development server and build tool
+4. Tailwind CSS – Utility-first CSS framework for responsive design
+5. shadcn/ui – Beautifully designed React components built with Radix UI and Tailwind
 
-There are several ways of editing your application.
+## Getting Started:
 
-**Use Lovable**
+To run the project locally, ensure you have Node.js and npm installed. Then follow the steps below:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d429d9ee-8ebd-4095-8070-ce51e817f35d) and start prompting.
+1. Clone the repository
 
-Changes made via Lovable will be committed automatically to this repo.
+git clone <https://github.com/dininduabey/skillbridge-demo.git>
 
-**Use your preferred IDE**
+2. Navigate into the project directory
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+cd skillbridge-demo
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+3. Install dependencies
 
-Follow these steps:
+npm install
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+4. Start the development server
+```
 npm run dev
 ```
+The development server will start with auto-reloading and a local preview, usually available at http://localhost:3000
 
-**Edit a file directly in GitHub**
+Deployment:
+This project can be deployed on any modern frontend hosting platform such as:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+1. Vercel
+2. Netlify
+3. Render
+4. GitHub Pages (with Vite config adjustments)
+5. Make sure to build the project before deploying:
+```
+npm run build
+```
+Custom Domain Setup:
+To set up a custom domain, refer to your hosting provider’s documentation. Typically, this involves:
 
-**Use GitHub Codespaces**
+1. Adding a custom domain in the host dashboard
+2. Configuring DNS records (e.g., A or CNAME)
+3. Verifying ownership
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/d429d9ee-8ebd-4095-8070-ce51e817f35d) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+📁 Project Structure:
+```
+skillbridge-demo/
+├── public/ # Static assets
+├── src/ # Main source code
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Page-level components
+│ ├── utils/ # Helper functions
+│ └── main.tsx # Entry point
+├── index.html
+├── tailwind.config.ts
+└── vite.config.ts
+```
+💡 Features:
+1. Real-time job recommendations
+2. Search and filtering functionality
+3. Clean, responsive UI
+4. Modular code structure
+5. Fast development with hot reloading
