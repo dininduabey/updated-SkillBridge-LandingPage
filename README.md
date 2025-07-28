@@ -19,7 +19,7 @@ To run the project locally, ensure you have Node.js and npm installed. Then foll
 
 1. Clone the repository
 
-git clone <https://github.com/dininduabey/skillbridge-demo.git>
+git clone <https://github.com/dininduabey/updated-SkillBridge-LandingPage.git>
 
 2. Navigate into the project directory
 
